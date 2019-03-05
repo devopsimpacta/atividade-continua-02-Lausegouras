@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <img src="Logo.jpg"/>
+    <h3>CADASTRO</h3>
+    <form action="Cadastro.html" method="POST" name="Cadastro">
+        <p><label>Nome Completo:</label><br/>
+            <input type="text" maxlength="45" placeholder="Digite seu nome completo" size="30" name="user" required/><br/></p>
+        <p><label>Data de Nascimento:</label><br/>
+            <input type="date"/><br/>
+        <p><label>Endereço:</label><br/>
+            <input type="text" maxlength="80" placeholder="Digite seu endereço" size="30" name="user" required/><br/></p>
+            <select name="UF">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+            </select><br/>
+        <p><label>Telefone Celular:</label><br/>
+            <input type="tel"/><br/>
+        <p><label>Telefone Fixo:</label><br/>
+            <input type="tel"/><br/>
+        <p><label>Email:</label><br/>
+            <input type="email" maxlength="30"/><br/>
+        <p><label>Nome Usuário:</label><br/>
+            <input type="text" maxlength="45" placeholder="Digite seu nome de usuário" size="30" name="user" required/><br/></p>
+            <input type="password" maxlength="8" placeholder="Digite sua senha" size="30" name="senha" required/><br/></p>
+            <input type="password" maxlength="8" placeholder="Digite senha novamente" size="30" name="senha" required/><br/></p>
+
+        <input name="" type="button" onClick="window.open('Login.html')" value="Salvar">
+
+
+</body>
+</html>
